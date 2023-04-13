@@ -5,9 +5,8 @@ import Wrapper from './Wrapper';
 function App() {
   return (
     <Wrapper>
-      <Hello />
-      <Hello />
-      <Hello />
+      <Hello name="react" color="red" isSpecial={true}/>
+      <Hello color="pink" />
     </Wrapper>
   );
 }
